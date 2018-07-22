@@ -1,0 +1,12 @@
+__pycache__/
+.idea
+.cache
+.vscode
+
+archive/testing-files/auth/*
+proof-of-concept/config.py
+raw-data/*
+documentation/*
+notes.md
+
+!.gitkeep
