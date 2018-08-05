@@ -9,7 +9,7 @@ setuptools.setup(
     author="Sam Huang",
     author_email="sam.huang@queensu.ca",
 #    description="",
-    install_requires=['py2neo', 'gspread', 'pandas', 'xlrd', 'flask', 'flask-restful']
+    install_requires=['oauth2client', 'numpy', 'facebook-sdk', 'py2neo', 'gspread', 'pandas', 'xlrd', 'flask', 'flask-restful']
 #    long_description=long_description,
 #    long_description_content_type="text/markdown",
 #    url="https://github.com/pypa/example-project",

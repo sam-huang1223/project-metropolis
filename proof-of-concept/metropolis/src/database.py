@@ -1,9 +1,10 @@
 import pandas as pd
 from numpy import nan
-from helper import execute_cypher, print_query
+
+from .helper import execute_cypher, print_query
 
 def creation_script():
-    xl = pd.ExcelFile("")
+    xl = pd.ExcelFile("../raw-data/QAA-Events-Sign-Ups-2017-2018.xlsx")
     df = xl.parse('Sheet2')
 
     data = df.to_dict('list')
@@ -24,7 +25,7 @@ def creation_script():
                     )
                 execute_cypher(query)
 
-#The MERGE clause ensures that a pattern exists in the graph. 
+#The MERGE clause ensures that a pattern exists in the graph.
 #Either the pattern already exists, or it needs to be created.
 
 #unique_students = pd.unique(df.values.ravel('K'))  # The argument 'K' tells the method to flatten the array in the order the elements are stored in memory
@@ -33,5 +34,6 @@ def creation_script():
 # query to create relationships using MERGE
 # Integrate date as property in ATTENDED relationship
 
-#print_query(execute_cypher('MATCH (n) RETURN n'))
+def test():
+    print_query(execute_cypher('MATCH (n) RETURN n'))
 

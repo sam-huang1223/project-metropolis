@@ -1,7 +1,7 @@
 # see learning.md for notes
 # see setup.py for required packages
 
-# virtual env is project-metropolis
+# virtual env is metropolis
 
 from py2neo import Graph
 from config import CREDENTIALS, DATABASE
