@@ -1,3 +1,7 @@
-from metropolis import test
+"""
+Use this to execute different pre-defined jobs
+"""
 
-test()
+from metropolis.jobs import test_metropolis
+
+test_metropolis()

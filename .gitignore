@@ -4,10 +4,12 @@ __pycache__/
 .vscode
 
 archive/testing-files/auth/*
-proof-of-concept/metropolis/src/gsheets/auth/*
+proof-of-concept/auth/*
 proof-of-concept/config.py
+proof-of-concept/parameters/*
 raw-data/*
 documentation/*
+
 notes.md
 
 !.gitkeep

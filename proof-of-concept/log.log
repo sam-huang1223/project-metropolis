@@ -1,1 +1,7 @@
-2018-08-05 00:03:38,250 - metropolis.src - INFO - Completed configuring logger()!
+2018-08-06 21:07:19,328 - metropolis - INFO - Completed configuring logger()!
+2018-08-06 21:07:20,454 - metropolis.jobs.test_functionality - INFO - Testing Google Drive API access -------------------
+2018-08-06 21:07:21,951 - metropolis.jobs.test_functionality - INFO - Success!
+2018-08-06 21:07:21,955 - metropolis.jobs.test_functionality - INFO - Testing Facebook Graph API access -----------------
+2018-08-06 21:07:22,582 - metropolis.jobs.test_functionality - INFO - Success!
+2018-08-06 21:07:22,583 - metropolis.jobs.test_functionality - INFO - Testing Neo4j database connection -----------------
+2018-08-06 21:07:23,127 - metropolis.jobs.test_functionality - INFO - Success!

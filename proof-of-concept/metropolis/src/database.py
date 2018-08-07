@@ -34,6 +34,6 @@ def creation_script():
 # query to create relationships using MERGE
 # Integrate date as property in ATTENDED relationship
 
-def test():
-    print_query(execute_cypher('MATCH (n) RETURN n'))
+def test_database_connection():
+    print_query(execute_cypher('MATCH (n) RETURN count(n)'))
 

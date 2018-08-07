@@ -1,1 +1,0 @@
-# http://pbpython.com/pandas-google-forms-part1.html
